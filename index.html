@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/styles.css">
+    <!--Added a favicon to title to further enhace the website-->
     <link rel="icon" href="./assets/images/cost-management.png">
+    <!--Changed the generic title of "website" to "Horiseon" so it unique and easy to recognize by the users-->
     <title>Horiseon</title>
 </head>
-
 <body>
+    <!--added semantic elements for easier HTML readabilty: "header" "section" "aside" "footer"-->
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
@@ -26,22 +28,26 @@
         </div>
     </header>
     <div class="hero"></div>
+    <!--added title attribute to section element to meet accessability needs-->
     <section title="main-section-content" class="content">
-        <div class="content-body" id="search-engine-optimization">
+        <!--added proper id to this first element to link the search engine optimization in header properly -->
+        <!--changed class names to consolidate css code-->
+        <div id="search-engine-optimization" class="section-content">
+            <!--added alt attributes to all images in the page for accessability-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="image of SEA tying in backlink, content, headings, link building, mobile capability, and social media" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="content-body">
+        <div id="online-reputation-management" class="section-content">
             <img src="./assets/images/online-reputation-management.jpg" alt="image of graphs showing positive correlation for company reputation" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="content-body">
+        <div id="social-media-marketing" class="section-content">
             <img src="./assets/images/social-media-marketing.jpg" alt="image of group of individuals utilizing social media bubbles to market their products" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -50,21 +56,22 @@
         </div>
     </section>
     <aside class="benefits">
-        <div class="benefit-content">
+        <!--Changed class names to "aside-benefits" to consolidate css code-->
+        <div class="aside-benefits">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="icon"/>
+            <img src="./assets/images/lead-generation.png" alt="icon"/> 
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-content">
+        <div class="aside-benefits">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="icon"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-content">
+        <div class="aside-benefits">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="icon"></img>
             <p>
